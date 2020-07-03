@@ -88,9 +88,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js",
+              "src/assets/js/svgxuse.min.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ELearning"
+    }
+  },
+  "defaultProject": "ELearning",
+  "cli": {
+    "analytics": "cab7bfee-a139-4220-8769-5cd86ef8231e"
+  }
 }
